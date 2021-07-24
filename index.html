@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="overlay"></div>
+            <nav>
+                <div class="nav_container">
+                    <div class="site_logo">
+                        <a href="https://www.stb.ua/ua/">
+                            <img src="https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/main-logo.svg" alt="">
+                        </a>
+                    </div>
+                    <ul class="menu_items">
+                        <li class="menu_item">
+                            <a href="https://www.stb.ua/ua/projects/">
+                                Проєкти
+                            </a>
+                            <div class="projects_modal_window">
+                                <ul class="main_projects">
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/talant">
+                                            <div>
+                                                <img src="https://www.stb.ua/talant/wp-content/uploads/sites/24/2021/04/16/umt_220x312.png" alt="">
+                                            </div>
+                                            <h3>Україна має талант</h3>
+                                        </a>
+                                    </li>
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/holostyachka">
+                                            <div>
+                                                <img src="https://www.stb.ua/holostyachka/wp-content/uploads/sites/765/2020/10/12/holostyachka_main-logo-on-prj-page_220x312.png" alt="">
+                                            </div>
+                                            <h3>Холостячка</h3>
+                                        </a>
+                                    </li>
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/masterchef">
+                                            <div>
+                                                <img src="https://www.stb.ua/masterchef/wp-content/uploads/sites/6/2020/08/25/220x312.png" alt="">
+                                            </div>
+                                            <h3>МастерШеф. CELEBRITY</h3>
+                                        </a>
+                                    </li>
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/serial">
+                                            <div>
+                                                <img src="https://www.stb.ua/wp-content/uploads/sites/26/2019/01/11/films_220x312.png" alt="">
+                                            </div>
+                                            <h3>Серіали</h3>
+                                        </a>
+                                    </li>
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/kriposna">
+                                            <div>
+                                                <img src="https://www.stb.ua/kriposna/wp-content/uploads/sites/753/2020/11/26/220h312.png" alt="">
+                                            </div>
+                                            <h3>Кріпосна</h3>
+                                        </a>
+                                    </li>
+                                    <li class="main_project">
+                                        <a href="https://www.stb.ua/1zavseh">
+                                            <div>
+                                                <img src="https://www.stb.ua/wp-content/uploads/sites/11/2018/12/02/ozv_220x312.png" alt="">
+                                            </div>
+                                            <h3>Один за всіх</h3>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="rest_projects_container">
+                                    <ul class="rest_projects">
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/supermama">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/764/2020/03/03/Supermama_logo_220x312-1.png" alt="">
+                                                </div>
+                                                <h4>Супермама</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/zvanyj-uzhin">
+                                                <div>
+                                                    <img src="https://www.stb.ua/zvanyj-uzhin/wp-content/uploads/sites/767/2020/08/27/zvana-vecherya_220x312.png" alt="">
+                                                </div>
+                                                <h4>Звана вечеря</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/vikna">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/14/2018/12/02/vikna_220x312.png" alt="">
+                                                </div>
+                                                <h4>Вікна-Новини</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/bitva">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/12/2018/12/17/be_220x312.png" alt="">
+                                                </div>
+                                                <h4>Битва екстрасенсів</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/dnk">
+                                                <div>
+                                                    <img src="https://www.stb.ua/dnk/wp-content/uploads/sites/760/2019/10/09/DNK__website_220x312.png" alt="">
+                                                </div>
+                                                <h4>Таємниці ДНК</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/slid">
+                                                <div>
+                                                    <img src="https://www.stb.ua/slid/wp-content/uploads/sites/763/2020/08/27/sled_site_220x312.png" alt="">
+                                                </div>
+                                                <h4>Слід</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/hatanatata">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/20/2018/12/02/xnt_220x312.png" alt="">
+                                                </div>
+                                                <h4>Хата на тата</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/startruth">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/9/2020/03/25/2.png" alt="">
+                                                </div>
+                                                <h4>Неймовірна правда про зірок</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/slipa">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/762/2020/01/29/photo_2020-01-29_15-11-07.jpg" alt="">
+                                                </div>
+                                                <h4>Сліпа</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/holostyak">
+                                                <div>
+                                                    <img src="https://www.stb.ua/holostyak/wp-content/uploads/sites/19/2021/01/29/hlst11_site_220x312.png" alt="">
+                                                </div>
+                                                <h4>Холостяк</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/eurovision">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/669/2018/12/02/eurovision_220x312.png" alt="">
+                                                </div>
+                                                <h4>Євробачення 2021</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="rest_projects">
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/detector">
+                                                <div>
+                                                    <img src="https://www.stb.ua/dnk/wp-content/uploads/sites/760/2020/08/25/detektor-brehni_220x312.png" alt="">
+                                                </div>
+                                                <h4>Детектор брехні</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/dizel-night">
+                                                <div>
+                                                    <img src="https://www.stb.ua/dizel-night/wp-content/uploads/sites/771/2021/02/17/dizel-night_main-logo-on-prj-page_220x312.png" alt="">
+                                                </div>
+                                                <h4>Dizel Night</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/zhinky">
+                                                <div>
+                                                    <img src="https://www.stb.ua/zhinky/wp-content/uploads/sites/770/2020/08/26/o-chem-molchat_220x312-1.png" alt="">
+                                                </div>
+                                                <h4>Про що мовчать жінки</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/tilo">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/23/2018/12/02/jsst_220x312.png" alt="">
+                                                </div>
+                                                <h4>Я соромлюсь свого тіла</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/ekstrasens">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/21/2018/12/02/sve_220x312.png" alt="">
+                                                </div>
+                                                <h4>Слідство ведуть екстрасенси</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/narechenadlyatata">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/735/2018/12/02/ndt_220x312.png" alt="">
+                                                </div>
+                                                <h4>Наречена для тата</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/dobre">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/13/2018/12/02/vbd_220x312.png" alt="">
+                                                </div>
+                                                <h4>Все буде добре</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/big">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/5/2018/12/02/zts_220x312.png" alt="">
+                                                </div>
+                                                <h4>Зважені та щасливі</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/xfactor">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/2/2018/12/02/xfaktor_220x312.png" alt="">
+                                                </div>
+                                                <h4>Х-Фактор</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/xfactor">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/755/2019/01/23/strava-cesti__top-menu_220x312.png" alt="">
+                                                </div>
+                                                <h4>Страва честі</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/rikpotomu">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/744/2018/12/02/cmrp_220x312.png" alt="">
+                                                </div>
+                                                <h4>Цієї миті рік потому</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="rest_projects">
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/rikpotomu">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/746/2018/12/02/ultymatum_220x312.png" alt="">
+                                                </div>
+                                                <h4>Ультиматум</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/vdoma">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/91/2018/12/02/kmd_220x312.png" alt="">
+                                                </div>
+                                                <h4>Коли ми вдома</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/zaskarbamy">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/736/2018/12/02/szs_220x312.png" alt="">
+                                                </div>
+                                                <h4>Світами за скарбами</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/invictusgames">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/730/2018/12/02/invictus_220x312.png" alt="">
+                                                </div>
+                                                <h4>Ігри Нескорених</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/experiments">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/740/2018/12/02/eksperimenti_220x312.png" alt="">
+                                                </div>
+                                                <h4>ЕксперименТИ</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/garipova">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/732/2018/12/02/haripova_220x312.png" alt="">
+                                                </div>
+                                                <h4>Вечір з Наталею Гаріповою</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/sex">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/69/2018/12/02/seks_220x312.png" alt="">
+                                                </div>
+                                                <h4>Давай поговоримо про секс</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/surprise">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/729/2018/12/02/surpriz_220x312.png" alt="">
+                                                </div>
+                                                <h4>Сюрприз, сюрприз!</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/juniorchef">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/665/2018/12/02/mc_220x312.png" alt="">
+                                                </div>
+                                                <h4>МастерШеф Діти</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/dance">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/4/2018/12/02/tanzen_220x312.png" alt="">
+                                                </div>
+                                                <h4>Танцюють всі</h4>
+                                            </a>
+                                        </li>
+                                        <li class="rest_project">
+                                            <a href="https://www.stb.ua/talantlive">
+                                                <div>
+                                                    <img src="https://www.stb.ua/wp-content/uploads/sites/641/2018/12/02/talant-live_220x312.png" alt="">
+                                                </div>
+                                                <h4>Талант-live</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="rest_projects last_project">
+                                    <li class="rest_project">
+                                        <a href="https://www.stb.ua/rabota">
+                                            <div>
+                                                <img src="https://www.stb.ua/wp-content/uploads/sites/76/2018/08/29/340-340.jpg" alt="">
+                                            </div>
+                                            <h4>Робота на СТБ</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="https://www.stb.ua/projects" class="projects_button">Проекти</a>
+                            </div>
+                        </li>
+                        <li class="menu_item">
+                            <a href="https://www.stb.ua/ua/tv/">
+                                ТВ-програма
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="https://www.stb.ua/ua/video/">
+                                Відео
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="https://www.stb.ua/casting_stb/">
+                                Кастинги
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="https://ru.surveymonkey.com/r/STB_2NM">
+                                Змінюй СТБ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_container">
+                    <a href="https://www.stb.ua/ua/?s=">
+                        <img src="https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/search-icon.svg
+                        " alt="">
+                    </a>
+                    <a href="https://www.stb.ua/holostyak/ru/2021/05/28/holostyak-11-ostalis-li-vmeste-mihail-zalivako-i-anna-bogdan/" class="language_btn">
+                        <img src="https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/lang-icon-ru.svg
+                        " alt="">
+                    </a>
+                    <span class="menu_toggler">
+                    </span>
+                    <img src="https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/close-icon.svg" alt="">
+                </div>
+            </nav>
+            <div class="project_menu">
+                <h4><a href="https://www.stb.ua/holostyak/ua">Холостяк</a></h4>
+                <ul class="">
+                    <li>
+                        <a href="https://www.stb.ua/holostyak/ua/uchastnitsy/">
+                            Учасниці
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.stb.ua/holostyak/ua/video-3/">
+                            Відео
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.stb.ua/holostyak/ua/stan-uchastnitsej-realiti-shou-holostyak/">
+                            Анкета
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.stb.ua/holostyak/ua/mihail-zalivako/">
+                            Михайло Заливако
+                        </a>
+                    </li>
+                </ul>
+                <img src="https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/arrow-down-white.svg" alt="">
+            </div>
+        </header>
+        <div class="main_content">
+            <div class="content">
+                <h1>
+                    «Холостяк»-11: Чи залишилися разом Михайло Заливако і Анна Богдан?
+                </h1>
+                <span class="post_date">
+                    28.05.2021
+                </span>
+                <p class="subtitle_text">
+                    Проєкт <a href="https://www.stb.ua/holostyak/ua/">«Холостяк»-11</a> добіг логічного завершення. Головний герой зробив
+                    свій вибір і освідчився в коханні одній-єдиній. Проте життя після проєкту
+                    залишалося досі в таємниці. Тож найцікавішим для глядачів було питання, чи
+                    пара 11 сезону романтичного реаліті «Холостяк» усе ще разом? Усі подробиці
+                    особистого життя Михайла Заливака та Анни Богдан стали відомі у 13 випуску проєкту.
+                    Більше про це — в матеріалі.
+                </p>
+                <img src="https://www.stb.ua/holostyak/wp-content/uploads/sites/19/2021/05/28/2021.05.17-kvz_374.jpg" alt="">
+                <p class="post_text">
+                    Щасливий фінал на проєкті «Холостяк» — Михайло Заливако освідчився в коханні Анні Богдан. Попри безліч коментарів глядачів, припущень прихильників і соціальних шпигунів, пара змогла утримати в таємниці своє особисте життя протягом трьох місяців!
+                </p>
+                <p class="post_text">
+                    І тільки тепер, коли двоє завітали до студії, вони змогли таки зізнатися, що залишилися разом! Почуття не вщухають, а лише посилюються. Ба більше, Міша та Аня живуть разом у Києві, куди Михайло переїхав заради коханої.
+                </p>
+                <img src="https://www.stb.ua/holostyak/wp-content/uploads/sites/19/2021/05/28/2021.05.17-kvz_391.jpg" alt="">
+                <p class="post_text">
+                    Більше про спільне життя в столиці, плани на майбутнє ми дізнавалися особисто в Михайла та Ані. Пара розповіла, як змінилося їхнє життя в стосунках, що Михайло подарував своїй обраниці на Фінальній церемонії окрім каблучки, а також чи є вдома червона кімната, про яку так мріяла Аня. Читайте велике<a href="https://www.stb.ua/holostyak/ua/2021/05/28/eksklyuzivnoe-intervyu-holostyaka-11-sezona-mihaila-zalivako-i-anny-bogdan/"> ексклюзивне інтерв’ю пари 11 сезону проєкту «Холостяк» — Михайла Заливака та Анни Богдан!</a>
+                </p>
+                <span class="read_more">
+                    Читайте нас також у <a href="https://chats.viber.com/stbua">Viber</a> і <a href="https://t.me/stbua">Telegram</a>
+                </span>
+                <div class="notify_us">
+                    <a href="https://mistape.com/">
+                        <svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64"><g><g><path d="m62.463,1.543c-1.017-1.017-2.403-1.542-3.83-1.543-1.43,0.021-2.778,0.591-3.801,1.609l-2.446,2.443c-0.01,0.012-0.015,0.025-0.024,0.035l-31.909,31.819c-0.104,0.104-0.158,0.233-0.234,0.353-0.131,0.152-0.245,0.317-0.327,0.505l-3.254,7.5c-0.324,0.75-0.169,1.62 0.397,2.211 0.392,0.41 0.927,0.631 1.476,0.631 0.241,0 0.486-0.043 0.719-0.131l7.824-2.943c0.217-0.081 0.406-0.209 0.579-0.352 0.126-0.08 0.262-0.14 0.367-0.245l32.035-31.945c0.006-0.006 0.008-0.014 0.015-0.02l2.341-2.33c2.118-2.111 2.15-5.52 0.072-7.597zm-35.905,37.576l-1.777-1.773 29.151-29.069 1.776,1.773-29.15,29.069zm32.95-32.857l-.916,.912-1.784-1.779 .911-.91c0.265-0.264 0.609-0.411 0.972-0.416 0.344-0.008 0.653,0.119 0.883,0.348 0.491,0.49 0.459,1.319-0.066,1.845z"></path><path d="M58.454,22.253c-1.128,0-2.04,0.911-2.04,2.034v33.611c0,1.121-0.915,2.033-2.04,2.033H6.12    c-1.126,0-2.04-0.912-2.04-2.033V9.787c0-1.121,0.914-2.034,2.04-2.034h33.403c1.127,0,2.04-0.911,2.04-2.034    s-0.913-2.034-2.04-2.034H6.12C2.745,3.685,0,6.422,0,9.787v48.111C0,61.263,2.745,64,6.12,64h48.254    c3.374,0,6.12-2.737,6.12-6.102V24.287C60.494,23.164,59.581,22.253,58.454,22.253z"></path></g></g></svg>
+                    </a>
+                    <span>If you have found a spelling error, please, notify us by selecting that text and pressing Ctrl+Enter.</span>
+                </div>
+            </div>
+            <div class="sidebar">
+            </div>
+        </div>
+        <footer>
+            <div class="footer_title">
+                <ul class="footer_social_items">
+                    <li class="social_item"><a href="https://twitter.com/TVchannelSTB"></a></li>
+                    <li class="social_item"><a href="https://t.me/stbua"></a></li>
+                    <li class="social_item"><a href="https://facebook.com/TVchannelSTB/"></a></li>
+                    <li class="social_item"><a href="https://www.instagram.com/stbua/"></a></li>
+                    <li class="social_item"><a href="https://invite.viber.com/?g2=AQAEyTKlm%2BFr7EkXH3XqNq6Fq5YMfDXXGFuMoFZyx8P99870orQOxD5pN7G51IsF"></a></li>
+                    <li class="social_item"><a href="https://www.youtube.com/user/bachelorUA"></a></li>  
+                    <li class="social_item"><a href="https://plus.google.com/+StbUa"></a></li>  
+                </ul>
+            </div>
+            <div class="footer_content">
+                <div class="footer_bread_crumbs">
+                    <a href="https://www.stb.ua/holostyak/ua">
+                        Холостяк
+                    </a>
+                    <span>
+                        «Холостяк»-11: Чи залишилися разом Михайло Заливако і Анна Богдан?
+                    </span>
+                </div>
+                <ul class="footer_links">
+                    <li class="footer_link"><a href="https://www.stb.ua/pro-kanal/">СТБ: інформація про телеканал</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/reklama/">Реклама</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/rabota-na-stb/">Вакансії</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/zvorotnij-zvyazok/">Зворотній зв’язок</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/useragreement/">Угода користувача</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/useragreement/">Політика конфіденційності</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/set-veshhaniya/">Мережа мовлення</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/struktura-vlasnosti/">Структура власності</a></li>
+                    <li class="footer_link"><a href="https://teleportal.ua/ru/show/stb">Шоу СТБ</a></li>
+                    <li class="footer_link"><a href="https://teleportal.ua/ru/show/stb">Серіали СТБ</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/ua/tehnicheskaya-podderzhka/">Технічна підтримка</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/ua/finansovij-otchet/">Фінансовий звіт</a></li>
+                    <li class="footer_link"><a href="https://www.stb.ua/ua/otchet-ob-upravlenii/">Звіт про управління</a></li>
+                </ul>
+                <ul class="footer_channels">
+                    <li class="footer_channel">
+                        <a href="https://ictv.ua/ua/">
+                            <svg width="64" height="24" viewBox="0 0 888 353" fill="#f04f23" xmlns="http://www.w3.org/2000/svg"><path d="M 196,0 L 142.181,118 H 0 L 104.2,201.276 L 35,353 L 165.605,250.351 L 249,317 L 229.465,200.159 L 334,118 H 215.729 L 196,0 z"></path><rect x="369" y="135" width="44" height="112"></rect><path d="m 582,175 c 0,-27 -23.5,-44 -69,-44 c -49,0 -69,20 -69,60 c 0,40 20,60 69,60 c 45.5,0 69,-17 69,-44 h -41 c -6,23 -56,28 -56,-16 c 0,-44 50,-39 56,-16 h 41 z"></path><path d="m 606,135 v 27 h 32 a 6,6,0,0,1,6,6 v 79 h 44 v -79 a 6,6,0,0,1,6,-6 h 32 v -27 h -120 z"></path><path d="m 748,135 l 36,112 h 68 l 36,-112 h -44 l -21,74 c -2.1,7.4 -7.9,7.4 -10,0 l -21,-74 h -68 z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="footer_channel">
+                        <a href="https://novy.tv/ua/">
+                            <svg width="24" height="24" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M29.113 1.916C29.113.958 28.155 0 27.197 0H22.26c-.958 0-1.916.958-1.916 1.916v11.498H8.77V1.916C8.77.958 7.96 0 6.928 0H1.916C.958 0 0 .958 0 1.843v33.462c0 .147.147.22.221.22h6.634c.958 0 1.916-.957 1.916-1.915V22.038h11.572v11.498c0 .958.958 1.916 1.916 1.916h5.012c.958 0 1.916-.958 1.916-1.916v-1.622c-.074-3.316-.074-29.998-.074-29.998z" transform="translate(22.701 19.384)" fill="url(#a)"></path><path d="M37 0C16.584 0 0 16.584 0 37s16.584 37 37 37 37-16.584 37-37c.073-20.416-16.584-37-37-37zm.074 66.04c-4.791 0-9.36-1.18-13.341-3.243h-8.55a.317.317 0 0 1-.295-.295v-6.78c-4.274-5.013-6.78-11.573-6.78-18.648 0-15.994 13.045-29.04 29.04-29.04 15.993 0 29.039 13.046 29.039 29.04-.147 15.92-13.12 28.966-29.113 28.966z" fill="url(#b)"></path><defs><linearGradient id="a" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(31.45138 -45.33157 45.3314 31.4515 -19.815 18.946)"><stop stop-color="#62BB46"></stop><stop offset="1" stop-color="#D2DE26"></stop></linearGradient><linearGradient id="b" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(90.9021 90.9024) rotate(-55.247 .298 .414)"><stop stop-color="#62BB46"></stop><stop offset="1" stop-color="#D2DE26"></stop></linearGradient></defs></svg>
+                        </a>
+                    </li>
+                    <li class="footer_channel">
+                        <a href="https://fakty.com.ua/ua/">
+                            <svg width="64" height="24" viewBox="0 0 132.59 28.18" fill="#FF6409" xmlns="http://www.w3.org/2000/svg"><path d="M61.29 28.18l7.33 0 0 -10.43c5.52,0 4.39,-0.71 5.74,2.44 0.39,0.93 0.77,1.76 1.16,2.64 0.18,0.42 0.38,0.89 0.55,1.28 0.22,0.55 0.39,0.83 0.6,1.37l1.11 2.7 7.75 0c-0.2,-0.83 -3.74,-8.59 -4.49,-10.44 -1.7,-4.17 -1.84,-3.04 -0.87,-5.2 0.39,-0.87 0.72,-1.83 1.13,-2.68l1.13 -2.67 8.03 0 0 20.99 7.32 0 0 -20.99c6.9,0 5.76,0.47 6.59,-1.45l2.29 -5.04 0 27.48 7.33 0c0.13,-0.49 1.6,-2.37 2.07,-3 0.28,-0.37 0.42,-0.62 0.69,-1 0.3,-0.44 0.44,-0.52 0.73,-0.96l7.92 -10.82 0 15.78 7.19 0 0 -28.18 -7.33 0c-0.13,0.49 -0.98,1.57 -1.33,2.05 -0.51,0.72 -0.93,1.22 -1.43,1.95l-4.26 5.89c-0.26,0.38 -0.44,0.62 -0.71,0.98 -0.67,0.88 -3.2,4.59 -3.68,4.91l0 -15.78 -36.07 0 -1.11 2.7c-0.2,0.5 -0.38,0.82 -0.56,1.26 -0.21,0.5 -0.38,0.92 -0.59,1.39l-1.73 3.91c-0.66,1.55 0.12,1.17 -5.17,1.17l0 -10.43 -7.33 0 0 28.18z"></path><path d="M7.19 12.54c0,-3.02 2.18,-5.35 5.21,-5.35l2.11 0 0 10.28c-2.59,0 -5.24,0.34 -6.81,-2.9 -0.19,-0.38 -0.51,-1.57 -0.51,-2.03zm17.04 4.93l-2.53 0 0 -10.28 2.39 0c4.12,0 7.28,5.69 2.93,9.27 -0.73,0.6 -1.69,1.01 -2.79,1.01zm-24.23 -5.49c0,3.64 1.23,7.12 3.91,9.47 1.06,0.93 2.41,1.82 3.82,2.38 2.37,0.96 4.03,0.97 6.78,0.97l0 3.38 7.19 0 0 -3.38c2.95,0 6.26,-0.16 8.77,-1.94 0.64,-0.45 1.19,-2.14 1.49,-2.87 0.35,-0.84 0.69,-1.54 1.03,-2.36l3.08 -7.2c0,-1.51 -0.78,-2.97 -1.31,-4.04 -0.61,-1.22 -1.41,-2.13 -2.32,-3.05 -1.42,-1.43 -4.71,-3.34 -7.5,-3.34l-13.39 0c-2.51,0 -5.4,1.3 -7.22,2.92 -1.5,1.35 -2.32,2.28 -3.21,4.26 -0.68,1.54 -1.12,2.92 -1.12,4.8z"></path><path d="M51.29 7.61l0 9.44c0,0.54 -0.05,0.05 0.14,0.42l-7.75 0c0.19,-0.39 0.39,-0.88 0.56,-1.27l1.65 -3.84c0.36,-0.91 2.11,-4.58 2.16,-5.17l3.38 0c-0.1,0.17 -0.14,0.15 -0.14,0.42zm-20.01 20.57l7.75 0 1.41 -3.38c2.49,0 4.98,0 7.47,0 0.63,0 3.18,-0.28 3.41,0.17 0.23,0.43 -0.55,3.21 0.39,3.21l6.9 0 0 -28.18 -15.21 0c-0.05,0.58 -1.15,2.8 -1.43,3.5l-10.69 24.68z"></path></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_copyright">
+                <p class="copyright_text">
+                    СТБ входит в группу <a href="https://slm.ua/">StarLightMedia</a>, которая<br/> объединяет 16 компаний. Использование материалов данного сайта возможно исключительно путем размещения гиперссылки на перво-источник без изменения содержания.
+                </p>
+                <p class="copyright_text">
+                    СТБ является участником инициативы «Чистое небо» по защите прав интеллектуальной собственности в сети Интернет. Подробную информацию и контакты для переговоров по получению прав на размещение видео можно найти на сайте инициативы <a href="https://www.stb.ua/holostyak/ua/2021/05/28/holostyak-11-ostalis-li-vmeste-mihail-zalivako-i-anna-bogdan/">legalcontentua.com</a>
+                </p>
+            </div>
+            <span class="end_copyright">© 1997—2021 ТОВ «Телканал СТБ»</span>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

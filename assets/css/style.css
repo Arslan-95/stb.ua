@@ -1,0 +1,793 @@
+@font-face {
+    font-family: 'SFUIDisplay-Semibold';
+    src: url('../fonts/SFUIDisplay-Semibold.otf');
+}
+body{
+    background-color: #e4e4e5;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    color: inherit;
+    font-family: 'PT Sans', sans-serif;
+    font-size: inherit;
+}
+
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header{
+    margin: 0;
+    padding-top: 72px;
+}
+
+ul,nav,.nav_container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.nav_container:last-child a{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+nav{
+    padding: 0 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e61645;
+    text-transform: uppercase;
+    height: 72px;
+    justify-content: space-between;
+}
+
+nav ul{
+    padding: 0;
+}
+.menu_item{
+    margin-left: 35px;
+    line-height: 50px;
+}
+.menu_item h3{
+    line-height: normal;
+}
+.content{
+    color: #26292e;
+}
+.content a{
+    color: #e61645;
+    font-weight: bold;
+}
+
+.content p{
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* Project menu */
+
+.project_menu{
+    box-sizing: border-box;
+    background-image: url('https://www.stb.ua/wp-content/uploads/sites/19/2018/12/21/Kholostjak_bg1.png');
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65px;
+    padding: 0 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+}
+.project_menu h4 a{
+    text-decoration: none;
+}
+.project_menu h4{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.project_menu li{
+    font-family: 'SFUIDisplay-Semibold';
+    font-weight: bold;
+    margin-left: 18px;
+    border-bottom: 2px solid white;
+}
+.project_menu li a{
+    text-decoration: none;
+}
+
+/* ------CONTENT--------------*/
+.main_content{
+    display: flex;
+    padding: 36px 36px 25px 36px;
+}
+.content{
+    width: 624px;
+}
+.content h1{
+    margin: 13px 0px 20px 0px;
+    font-size: 30px;
+    color: #26292e;
+    line-height: 35px;
+}
+
+.post_date{
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #e61645;
+}
+.content p{
+    line-height: 24px;
+}
+
+.subtitle_text{
+    font-weight: 700;
+}
+
+
+/* Read More */
+.read_more{
+    font-style: italic;
+}
+.read_more a{
+    font-weight: 400;
+}
+
+/* Notify Us */
+
+.notify_us{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.notify_us a{
+    height: 22px;
+}
+.notify_us svg{
+    height: 22px;
+    width: 22px;
+    fill: #B5121C;
+    opacity: .8;
+    margin-right: 7px;
+}
+.notify_us span{
+    font-size: 12.8px;
+    color: #66696c;
+}
+/* FOOTER */
+
+footer{
+    background-color: #26292e;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 45px;
+}
+
+.footer_title{
+    background-color: #e61645;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+}
+.footer_bread_crumbs span::before{
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    margin: 0 .9rem;
+    opacity: 1;
+    content: ">";
+    color: #b7b7b7;
+    transform: scaleY(1.6);
+}
+
+.social_item{
+    margin-right: 13px;
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.social_item a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.social_item svg{
+    height: 52px;
+    width: 52px;
+}
+
+.footer_content{
+    margin: 30px 120px;
+    border-bottom: 1px solid #939497;
+}
+.footer_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_link{
+    margin: 6px 14px;
+    transition: all .5s;
+}
+
+.footer_link a{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Footer Channel */
+.footer_channel{
+    margin: 10px 8px;
+}
+.footer_channels{
+    padding: 0;
+}
+/* --Footer Copyright-- */
+
+.footer_copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    box-sizing: border-box;
+}
+.copyright_text{
+    width: 41%;
+    line-height: 16px;
+    font-size: 12px;
+    position: relative;
+    margin: 0;
+}
+.copyright_text:nth-child(2)::before{
+    content: '';
+    background: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/legalcontentua-logo.png') no-repeat;
+    width: 45px;
+    height: 49px;
+    position: absolute;
+    left: -65px;
+    top: 0;
+}
+.end_copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0;
+}
+
+nav{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    max-width: 1024px;
+    box-sizing: border-box;
+    z-index: 20;
+}
+
+.nav_container span{
+    position: relative;
+}
+
+.nav_container span::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 22px;
+    height: 2px;
+    background: #26292e;
+    box-shadow: 0 6px 0 #26292e, 0 12px 0 #26292e;
+    content: '';
+}
+.nav_container:last-child > img, .project_menu > img{
+    display: none;
+}
+
+/* Projects_modal Window */
+
+.projects_modal_window{
+    background-color: #f4f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 1024px;
+    height: calc(100vh - 80px);
+    z-index: 30;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+.main_projects{
+    align-items: start;
+    flex-wrap: wrap;
+}
+.main_project{
+    margin: 0px 12px;
+    max-width: 138px;
+    text-transform: none;
+    color: #000;
+}
+.main_project h3{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.main_project img{
+    width: 100%;
+}
+
+.rest_projects_container{
+    display: flex;
+    margin-left: 36px;
+}
+
+.rest_projects{
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    margin-top: 16px;
+    max-width: 300px;
+    width: 33%;
+    margin-right: 5%;
+}
+.rest_project{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.rest_project::after{
+    content: '';
+    width: 85%;
+    left: 48px;
+    bottom: 6px;
+    position: absolute;
+    border-bottom: 1px solid #d6d8d9;
+}
+.rest_project a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    height: 38px;
+}
+.rest_project a h4{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    color: #26292e;
+    opacity: .95;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.last_project{
+    border: none;
+    padding: 0 36px;
+    margin: 0;
+    margin-bottom: 35px;
+    width: 27.5%;
+    position: relative;
+}
+
+.projects_button{
+    width: 138px;
+    height: 43px;
+    line-height: 43px;
+    background-color: #e61645;
+    margin: 0 auto 40px auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_item:first-child:hover .projects_modal_window {
+    display: flex;
+}
+
+.projects_modal_window{
+    display: none;
+}
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(38,41,46,.75);
+    display: none;
+}
+.overlay.menu_active{
+    display: block;
+}
+
+/* Hover Effects */
+.project_menu li, .menu_item{
+    transition: all .4s;
+}
+.project_menu li:hover{
+    opacity: .8;
+}
+.menu_item:hover{
+    color: #000;
+}
+.content a:hover{
+    color: #1779ba;
+}
+
+.main_project:hover a{
+    color: #e61645;
+}
+.main_project > a > div{
+    position: relative;
+}
+.main_project > a > div::after{
+    content: '';
+    position: absolute;
+    height: 195px;
+    width: 138px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+}
+.main_project:hover > a > div::after{
+    border: 2px solid #e61645;
+}
+.main_project:hover img{
+    box-sizing: border-box;
+    object-fit:scale-down;
+}
+.rest_project:hover img{
+    transform: scale(1.1);
+    top: 1px;
+}
+.rest_project:hover h4{
+    color: #e61645;
+}
+.rest_project:hover a > div{
+    border: 2px solid #e61645;
+    box-sizing: border-box;
+}
+.rest_project a > div{
+    height: 38px;
+    width: 38px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.rest_projects img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer_social_items > li:nth-child(1){
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/twitter.svg');
+}
+.footer_social_items > li:nth-child(2){
+    background-image: url('	https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/telegram.svg');
+}
+.footer_social_items > li:nth-child(3){
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/fb.svg');
+}
+.footer_social_items > li:nth-child(4){
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/insta.svg');
+}
+.footer_social_items > li:nth-child(5){
+    background-image: url('	https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/viber.svg');
+}
+.footer_social_items > li:nth-child(6){
+    background-image: url('	https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/youtube.svg');
+}
+.footer_social_items > li:nth-child(7){
+    background-image: url('	https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/g+.svg');
+}
+
+
+.footer_social_items > li:nth-child(1):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/twitter_hover.svg');
+}
+.footer_social_items > li:nth-child(2):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/telegram_hover.svg');
+}
+.footer_social_items > li:nth-child(3):hover{
+    background-image: url('	https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/fb_hover.svg');
+}
+.footer_social_items > li:nth-child(4):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/insta_hover.svg');
+}
+.footer_social_items > li:nth-child(5):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/viber_hover.svg');
+}
+.footer_social_items > li:nth-child(6):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/youtube_hover.svg');
+}
+.footer_social_items > li:nth-child(7):hover{
+    background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/social/g+_hover.svg');
+}
+
+.footer_link:hover{
+    opacity: .7;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 1023px){
+    header{
+        padding-top: 48px;
+    }
+    .main_content{
+        width: 95%;
+        padding: 30px 0px;
+        margin: 0 auto;
+    }
+    .content{
+        width: 100%;
+    }
+    .menu_item{
+        font-size: 14px;
+        margin-left: 14px;
+    }
+    .project_menu li{
+        font-size: 14px;
+        margin-left: 9px;
+    }
+    .site_logo{
+        width: 35px;
+        height: 35px;
+    }
+    .project_menu,nav{
+        height: 48px;
+        padding: 0 24px;
+    }
+    .sidebar{
+        display: none;
+    }
+    /* Projects modal Window */
+    .projects_modal_window{
+        height: calc(100vh - 67px);
+        width: 100vw;
+        left: 0;
+        transform: none;
+    }
+    
+}
+
+@media screen and (max-width: 605px){
+    .content h1{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .menu_items,.language_btn{
+        display: none;
+    }
+    .main_content{
+        width: 91%;
+        padding: 30px 0px;
+        margin: 0 auto;
+    }
+    .content p{
+        margin-top: 15px;
+        line-height: normal;
+    }
+    .footer_bread_crumbs span::before{
+        margin: 0px 0px 0px 10px;
+    }
+    .footer_bread_crumbs span{
+        width: 100%;
+    }
+    
+    .footer_title{
+        height: 74px;
+    }
+    .footer_links{
+        justify-content: start;
+        align-items: start;
+        padding: 0;
+        flex-direction: column;
+    }
+    .footer_link{
+        margin: 5px 0;
+    }
+    .footer_content{
+        margin: 20px 40px 0px 40px;
+    }
+    .footer_social_items{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .social_item{
+        margin: 0 3px;
+        height: 35px;
+        width: 35px;
+    }
+    /* Footer copyright */
+    
+    .footer_copyright{
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+    .copyright_text{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .copyright_text br{
+        display: none;
+    }
+    .copyright_text:nth-child(2){
+        width: 70%;
+    }
+    .copyright_text:nth-child(2)::before{
+        left: auto;
+        right: -70px;
+    }
+    /* Nav */
+    nav{
+        padding: 0px 13px;
+    }
+    .nav_container span::after{
+        display: block;
+    }
+    .nav_container span{
+        width: 22px;
+        height: 11px;
+        margin-left: 10px;
+    }
+    .menu_items.menu_active{
+        display: flex;
+        position: absolute;
+        top: 83%;
+        width: 100vw;
+        height: 240px;
+        margin: 0;
+        background: #fff;
+        left: 0;
+        flex-direction: column;
+        align-items: start;
+    }
+    .menu_item.menu_active{
+        line-height: 48px;
+        font-size: 16px;
+        margin-left: 32px;
+    }
+    .nav_container.menu_active:last-child{
+        position: absolute;
+        right: 20px;
+        top: 100%;
+    }
+    .nav_container:last-child > img{
+        display: block;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: -140%;
+        right: -5px;
+    }
+    .project_menu ul{
+        flex-direction: column;
+    }
+    .language_btn.menu_active{
+        display: block;
+    }
+    .menu_toggler.menu_active{
+        display: none;
+    }
+
+    /* Project Menu */
+    nav{
+        z-index: 20;
+    }
+    .project_menu{
+        padding: 0 13px;
+        z-index: 10;
+    }
+    .project_menu ul{
+        display: none;
+        background-image: url('https://www.stb.ua/holostyak/wp-content/themes/STB_New/assets/img/bg-1.png');
+    }
+    .project_menu ul.project_active{
+        box-sizing: border-box;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        margin: 0;
+        padding: 0 13px;
+        width: 100vw;
+        height: 176px;
+    }
+    .project_menu ul li{
+        margin: 12px 0px;
+    }
+    .project_menu > img{
+        display: block;
+        width: 20px;
+    }
+
+    /* Projects modal */
+    .rest_projects_container{
+        flex-direction: column;
+    }
+    .rest_projects{
+        border: none;
+        padding: 0;
+        margin: 0;
+        max-width: none;
+        width: 70%;
+    }
+    .last_project{
+        width: 64.5%;
+    }    
+    .rest_projects:first-child{
+        border-top: 1px solid #fff;
+        padding-top: 30px;
+    }
+    .rest_project h4{
+        margin: 0;
+    }
+    .projects_modal_window{
+        line-height: normal;
+    }
+
+    .projects_modal_window{
+        height: calc(100vh - 93px);
+        position: fixed;
+        top: auto;
+        bottom: 0;
+    }
+    .last_project{
+        margin-left: 36px;
+    }
+    .projects_button{
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 375px){
+    .last_project{
+        width: 63.5%;
+    }   
+}
+@media screen and (max-width: 320px){
+    .main_projects{
+        justify-content: start;
+        margin-left: 24px;
+    }
+}
